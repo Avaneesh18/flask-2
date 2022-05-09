@@ -14,7 +14,7 @@ not_liked_articles = []
 
 app = Flask(__name__)
 
-@app.route('/flask-mk-1')
+@app.route('/flask-mk-2')
 
 def get_articles():
     return jsonify({
